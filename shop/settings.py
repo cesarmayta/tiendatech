@@ -93,8 +93,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'tiendatech',
-        'USER': 'root',
-        'PASSWORD': 'codigo2021',
+        'USER': 'cmayta',
+        'PASSWORD': 'tecsup2021',
         'HOST': 'localhost',
         'PORT': '3306',
     }
