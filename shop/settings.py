@@ -80,23 +80,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'shop.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-#django.db.backends.mysql
-#django.db.backends.postgresql
-#postgres://
-# USUARIO cxrnyufuiaunsn
-# PASSWORD 1e28752a2c5ee9e7126c44a6cab2628cc7d96006271190c1f5fda734a94a332a
-# HOST ec2-44-194-112-166.compute-1.amazonaws.com
-# BASE DATOS d7bklj0h3qfqsj
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tiendatech',
-        'USER': 'cmayta',
-        'PASSWORD': 'tecsup2021',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 
